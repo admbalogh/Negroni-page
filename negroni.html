@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Negroni🇮</title>
+    <style>
+      body {
+       background: #FDF0E6;
+      }
+
+      
+      h1 {
+        font-size: 56px;
+        color: rgba(22, 22, 22, 0.961);
+        margin:  0 auto;
+        padding:30px 0;
+        text-align: center;
+        font-weight:bold;
+        text-transform: uppercase;
+        letter-spacing: 0.8rem;
+        font-family:monospace;        
+      }
+      h2{
+
+        text-align: center;
+        line-height: 1.7;
+        font-size: 38px;
+        font-weight: 300;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+
+      h3 {
+        font-family: monospace;
+        text-decoration:solid;
+        line-height: 1.5  ;
+      }
+      img {
+        max-width: 75%;
+        box-shadow: 10px 5px 28px rgba(0, 0, 0, 0.23);
+        border-radius: 7px;
+      }
+
+      p {
+        text-align: justify;
+        line-height: 1.7;
+        font-size: 17px;
+        font-weight: 300;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+
+      button {
+        display: block;
+        margin: 20px auto;
+        border: 1px solid rgba(0, 0, 0, 0.36);
+        color: rgb(0, 0, 0);
+        background: #f2d8d2;
+        font-size: 14px;
+        padding: 15px 20px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px #5454544d;
+        transition: all 200ms ease-in-out;
+      }
+        .buy-button{
+          margin-bottom: 40px;   
+           }
+      button:hover {
+        opacity: 0.9;
+        background: rgba(221, 160, 160);
+        cursor: pointer;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 30px 60px;
+        border-top: rgba(0, 0, 0, 0.569) 0.5px solid;
+      }
+
+      .learn-more {
+        color: black;
+        text-decoration: none;
+        font-size: 11px;
+      }
+
+      .learn-more:hover {
+        text-decoration: underline;
+      }
+
+      .footer {
+        text-align: center;
+        padding: 50px 0 100px;
+      }
+      .icon-style {
+        font-size: 26px;
+        color: black;
+      }
+      .icon-style:hover {
+        font-size: 34px;
+        cursor: pointer;
+        transition: all 100ms ease-in-out;
+        color: plum;
+      }
+
+      
+    </style>
+  </head>
+  <body>
+    
+    <h1> Negroni </h1>
+    <div class="container">
+      <div class="row">
+       <div class="col-sm-6">
+        <h3 class="mb-3"> What is it? </h3>
+        <p class="me-5">
+        Negroni is an Italian cocktail, made of one part gin, one part
+        vermouth rosso (red, semi-sweet), and one part Campari, garnished with
+        orange peel. It is considered an aperitivo. A traditionally made Negroni
+        is stirred, not shaken, and built over ice in an old-fashioned or rocks
+        glass and garnished with a slice of orange. Outside of Italy, an orange
+        peel is often used in place of an orange slice. Nowdays is a very
+        popular way to make negroni is to use an oak barrel and age the cocktail.
+        The process is simple and the taste is more complex,rich and smooth. 
+       </p>
+       <h3 class="mb-3">What does it taste like ?</h3>
+       <p class="me-5">
+        A negroni is a bitter cocktail but the vermouth and orange 
+        garnish add enough fruity sweetness to balance it out.
+        The taste is herby, a bit rooty - think liquorice root - and 
+        then there are some deep dark fruit flavours. 
+        The gin is present too so there's that classic juniper tang,
+         notes of lemon and coriander seed.
+       </p>
+       <h3 class="mb-3">Can I make it at home?</h3>
+        <p class="me-5"> One of the best things about this cocktail is
+           how easy it is to make and to make well.
+           All you need is just pour all the ingredients 25ml each into 
+           a stir glass over some ice cubes. 
+           Give 25-30 sec stir and strain in a rock glass.
+           Add a slice of orange and Salute ! </p>
+       </div>
+      
+       <div class="col-sm-6">
+       <img src="images/project.jpg" class="img-fluid ms-5 mb-5 p-2 border" alt="#">
+        </div>
+      </div>
+    </div>
+    <h2></h2>
+       <p class="footer">
+        <button class="buy-button" id="buy-button">Contact 📩</button>
+        Page created by Adam Balogh
+          <a
+          href="https://www.instagram.com/admbalogh/"
+          target="_blank"
+          class="link-icon ">
+          </br>
+         <i class="fa icon-style mt-4">&#xf16d;</i></a>
+       </p>
+
+    <script>
+      
+      function buyIt(event) {
+        let name = prompt("What's your name?");
+        let email = prompt("What's your email address?");
+        let emoji = prompt("What's your favorite emoji?");
+         
+        null=="0";
+  
+        let h2 = document.querySelector("h2");
+        h2.innerHTML =`Hi👋🏻 ${name} ! We'll email you to ${email}, till than enjoy your day !${emoji}`;
+      }
+      
+
+      let buyButton = document.querySelector("#buy-button");
+      buyButton.addEventListener("click", buyIt);
+    </script>
+
+  </body>
+</html>
